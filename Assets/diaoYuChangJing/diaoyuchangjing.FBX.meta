@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 3144eb99f7c0ee94e9d465e1eb0f252a
+timeCreated: 1505442477
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Camera001
+    100004: Camera001.Target
+    100006: Cylinder001
+    100008: dashitou
+    100010: dashitou001
+    100012: //RootNode
+    100014: diaoyugan
+    100016: qiao
+    100018: cao006
+    100020: cao05
+    100022: dimian
+    100024: shupian
+    100026: xiaoshitou
+    100028: yuanyeshu
+    100030: "\u5BF9\u8C61001"
+    100032: mutai
+    400000: Box001
+    400002: Camera001
+    400004: Camera001.Target
+    400006: Cylinder001
+    400008: dashitou
+    400010: dashitou001
+    400012: //RootNode
+    400014: diaoyugan
+    400016: qiao
+    400018: cao006
+    400020: cao05
+    400022: dimian
+    400024: shupian
+    400026: xiaoshitou
+    400028: yuanyeshu
+    400030: "\u5BF9\u8C61001"
+    400032: mutai
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: dashitou
+    2300006: dashitou001
+    2300008: diaoyugan
+    2300010: qiao
+    2300012: cao006
+    2300014: cao05
+    2300016: dimian
+    2300018: shupian
+    2300020: xiaoshitou
+    2300022: yuanyeshu
+    2300024: "\u5BF9\u8C61001"
+    2300026: mutai
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: dashitou
+    3300006: dashitou001
+    3300008: diaoyugan
+    3300010: qiao
+    3300012: cao006
+    3300014: cao05
+    3300016: dimian
+    3300018: shupian
+    3300020: xiaoshitou
+    3300022: yuanyeshu
+    3300024: "\u5BF9\u8C61001"
+    3300026: mutai
+    4300000: Box001
+    4300002: Cylinder001
+    4300004: diaoyugan
+    4300006: dashitou
+    4300008: qiao
+    4300010: dashitou001
+    4300012: dimian
+    4300014: xiaoshitou
+    4300016: yuanyeshu
+    4300018: cao05
+    4300020: cao006
+    4300022: shupian
+    4300024: "\u5BF9\u8C61001"
+    4300026: mutai
+    6400000: dashitou
+    6400002: diaoyugan
+    6400004: dimian
+    6400006: mutai
+    6400008: qiao
+    6400010: shupian
+    6400012: xiaoshitou
+    6400014: yuanyeshu
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 65489b8f9db5d0b45ad83aff96f2399e
+timeCreated: 1515054191
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone009
+    100016: Bone010
+    100018: Bone012
+    100020: Bone013
+    100022: Bone015
+    100024: Bone016
+    100026: Bone017
+    100028: Bone018
+    100030: Bone020
+    100032: Bone021
+    100034: Bone022
+    100036: Bone023
+    100038: Bone024
+    100040: Bone025
+    100042: //RootNode
+    100044: BOSS_02_1
+    100046: BOSS_02_10
+    100048: BOSS_02_11
+    100050: BOSS_02_2
+    100052: BOSS_02_3
+    100054: BOSS_02_4
+    100056: BOSS_02_5
+    100058: BOSS_02_6
+    100060: BOSS_02_7
+    100062: BOSS_02_8
+    100064: BOSS_02_9
+    100066: Dummy001
+    100068: Dummy002
+    100070: Dummy003
+    100072: Dummy004
+    100074: Dummy005
+    100076: Dummy006
+    100078: Dummy007
+    100080: Dummy008
+    100082: Dummy009
+    100084: Dummy010
+    100086: Dummy011
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone009
+    400016: Bone010
+    400018: Bone012
+    400020: Bone013
+    400022: Bone015
+    400024: Bone016
+    400026: Bone017
+    400028: Bone018
+    400030: Bone020
+    400032: Bone021
+    400034: Bone022
+    400036: Bone023
+    400038: Bone024
+    400040: Bone025
+    400042: //RootNode
+    400044: BOSS_02_1
+    400046: BOSS_02_10
+    400048: BOSS_02_11
+    400050: BOSS_02_2
+    400052: BOSS_02_3
+    400054: BOSS_02_4
+    400056: BOSS_02_5
+    400058: BOSS_02_6
+    400060: BOSS_02_7
+    400062: BOSS_02_8
+    400064: BOSS_02_9
+    400066: Dummy001
+    400068: Dummy002
+    400070: Dummy003
+    400072: Dummy004
+    400074: Dummy005
+    400076: Dummy006
+    400078: Dummy007
+    400080: Dummy008
+    400082: Dummy009
+    400084: Dummy010
+    400086: Dummy011
+    4300000: BOSS_02_11
+    4300002: BOSS_02_1
+    4300004: BOSS_02_8
+    4300006: BOSS_02_6
+    4300008: BOSS_02_5
+    4300010: BOSS_02_9
+    4300012: BOSS_02_4
+    4300014: BOSS_02_3
+    4300016: BOSS_02_2
+    4300018: BOSS_02_7
+    4300020: BOSS_02_10
+    7400000: run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BOSS_02_1
+    13700002: BOSS_02_10
+    13700004: BOSS_02_11
+    13700006: BOSS_02_2
+    13700008: BOSS_02_3
+    13700010: BOSS_02_4
+    13700012: BOSS_02_5
+    13700014: BOSS_02_6
+    13700016: BOSS_02_7
+    13700018: BOSS_02_8
+    13700020: BOSS_02_9
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone002
+        weight: 1
+      - path: Bone002/Dummy008
+        weight: 1
+      - path: Bone002/Dummy009
+        weight: 1
+      - path: Bone002/Dummy010
+        weight: 1
+      - path: BOSS_02_1
+        weight: 1
+      - path: BOSS_02_2
+        weight: 1
+      - path: BOSS_02_3
+        weight: 1
+      - path: BOSS_02_4
+        weight: 1
+      - path: BOSS_02_5
+        weight: 1
+      - path: BOSS_02_6
+        weight: 1
+      - path: BOSS_02_7
+        weight: 1
+      - path: BOSS_02_8
+        weight: 1
+      - path: BOSS_02_9
+        weight: 1
+      - path: BOSS_02_10
+        weight: 1
+      - path: BOSS_02_11
+        weight: 1
+      - path: Dummy011
+        weight: 1
+      - path: Dummy011/Bone001
+        weight: 1
+      - path: Dummy011/Bone001/Dummy001
+        weight: 1
+      - path: Dummy011/Bone003
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone006
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone006/Bone007
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone009
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone009/Bone010
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone012
+        weight: 1
+      - path: Dummy011/Bone003/Dummy002/Bone004/Dummy003/Bone005/Bone024/Bone012/Bone013
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone017
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone017/Bone018
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone020
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone020/Bone021
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone022
+        weight: 1
+      - path: Dummy011/Bone003/Dummy004/Bone015/Dummy005/Bone016/Bone025/Bone022/Bone023
+        weight: 1
+      - path: Dummy011/Bone003/Dummy006
+        weight: 1
+      - path: Dummy011/Bone003/Dummy007
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
