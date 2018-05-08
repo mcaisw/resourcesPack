@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 4116510862
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: level01.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: enemy.unity3d
+      Dependencies: {}
