@@ -25,8 +25,8 @@ public class AssetBundleManage
     }
     #endregion
 
-    public string inPath;//软件内部资源存放目录
-    public string outPath;//软件安装完外部资源存放目录
+    public string localTestPath;//软件内部资源存放目录
+    public string resDownloadedPath;//软件安装完外部资源存放目录
     public string serverPath;
 
     private AssetBundleCreateRequest bundleRequest;
@@ -59,7 +59,7 @@ public class AssetBundleManage
     //私有构造
     private AssetBundleManage()
     {
-        AcquirePath(ref inPath, ref outPath,ref serverPath);
+        AcquirePath(ref localTestPath, ref resDownloadedPath,ref serverPath);
         loadQueue=new List<string>();
         bundleRequest = new AssetBundleCreateRequest();
         assetBundleCount = 0;
@@ -111,7 +111,7 @@ public class AssetBundleManage
         //AssetBundle bundle = AssetBundle.LoadFromFile(outPath + "AssetBundles");//不论在任何平台，默认是 "AssetBundles"名
 
         //inPath 本地测试的时候，把bundle包放置的目录路径
-        AssetBundle bundle = AssetBundle.LoadFromFile(inPath + "AssetBundles");//不论在任何平台，默认是 "AssetBundles"名
+        AssetBundle bundle = AssetBundle.LoadFromFile(localTestPath + "AssetBundles");//不论在任何平台，默认是 "AssetBundles"名
 
         AssetBundleManifest manifest = bundle.LoadAsset("AssetBundleManifest") as AssetBundleManifest;
 
@@ -137,7 +137,7 @@ public class AssetBundleManage
         if (loadQueue.Count > 0)
         {
             //string path = outPath + loadQueue[0];
-            string path = inPath + loadQueue[0];
+            string path = localTestPath + loadQueue[0];
 
             Debug.Log("<color=red>加载资源</color>" + path);
             bundleRequest = AssetBundle.LoadFromFileAsync(path);
@@ -198,19 +198,19 @@ public class AssetBundleManage
     public IEnumerator LoadAsset(string name,string enemyName)
     {
         //获取资源路径
-        string pathOut = outPath.Remove(0, outPath.IndexOf("///") + 3);
-        string pathIn = inPath.Remove(0, inPath.IndexOf("///") + 3);
+        string pathOut = resDownloadedPath.Remove(0, resDownloadedPath.IndexOf("///") + 3);
+        string pathIn = localTestPath.Remove(0, localTestPath.IndexOf("///") + 3);
 
         string url;
         //如果从服务器上下载到本地的目录有这个AB包，即，外部测试（得先从服务器下载到本地那个目录）
         if (File.Exists(pathOut + name))
         {
-            url = outPath + name;
+            url = resDownloadedPath + name;
         }
         //如果是本地测试（在pc端，或者Unity_Editor上测试）
         else if (File.Exists(pathIn + name))
         {
-            url = inPath + name;
+            url = localTestPath + name;
         }
         else
         {
@@ -242,7 +242,7 @@ public class AssetBundleManage
     public IEnumerator LoadScene(string name)
     {
         //获取资源路径
-        string url = inPath + "01.unity3d";
+        string url = localTestPath + "01.unity3d";
         WWW www = new WWW(@url);
         yield return www;
         if (string.IsNullOrEmpty(www.error))
@@ -260,16 +260,16 @@ public class AssetBundleManage
     private IEnumerator LoadLocalMainfest()
     {
         //获取资源路径
-        string pathOut = outPath.Remove(0, outPath.IndexOf("///") + 3);
-        string pathIn = inPath.Remove(0, inPath.IndexOf("///") + 3);
+        string pathOut = resDownloadedPath.Remove(0, resDownloadedPath.IndexOf("///") + 3);
+        string pathIn = localTestPath.Remove(0, localTestPath.IndexOf("///") + 3);
         string url;
         if (File.Exists(pathOut + "AssetBundle"))
         {
-            url = outPath + "AssetBundle";
+            url = resDownloadedPath + "AssetBundle";
         }
         else if (File.Exists(pathIn + "AssetBundle"))
         {
-            url = inPath + "AssetBundle";
+            url = localTestPath + "AssetBundle";
         }
         else
         {
@@ -432,7 +432,7 @@ Application.dataPath + "/Raw/";
     //从文件夹里加载一个同步加载
     public void LoadNoRequest()
     {
-        var bundle = AssetBundle.LoadFromFile(inPath);
+        var bundle = AssetBundle.LoadFromFile(localTestPath);
         UnityEngine.Object obj = bundle.LoadAsset("sphere");
         Object.Instantiate(obj);
         // Unload the AssetBundles compressed contents to conserve memory
@@ -441,7 +441,7 @@ Application.dataPath + "/Raw/";
     //从文件夹里加载全部
     public void loadAll()
     {
-        var bundle = AssetBundle.LoadFromFile(inPath);
+        var bundle = AssetBundle.LoadFromFile(localTestPath);
         foreach (UnityEngine.Object temp in bundle.LoadAllAssets())
         {
             Object.Instantiate(temp);
